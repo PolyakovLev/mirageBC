@@ -1,0 +1,6 @@
+framework module Pods_MirageBC_Client {
+  umbrella header "Pods-MirageBC_Client-umbrella.h"
+
+  export *
+  module * { export * }
+}

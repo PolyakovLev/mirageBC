@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371E8D1222B54F3F00D62FB1 /* Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E8D1122B54F3F00D62FB1 /* Moya.swift */; };
+		440183EE22B5321800FD616B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440183ED22B5321800FD616B /* AppDelegate.swift */; };
+		440183F022B5321800FD616B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440183EF22B5321800FD616B /* SceneDelegate.swift */; };
+		440183F222B5321800FD616B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440183F122B5321800FD616B /* ContentView.swift */; };
+		440183F422B5321D00FD616B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440183F322B5321D00FD616B /* Assets.xcassets */; };
+		440183F722B5321D00FD616B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440183F622B5321D00FD616B /* Preview Assets.xcassets */; };
+		440183FA22B5321D00FD616B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440183F822B5321D00FD616B /* LaunchScreen.storyboard */; };
+		4471BED922B538AB00F39B83 /* RegistationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471BED822B538AB00F39B83 /* RegistationView.swift */; };
+		4471BEDB22B5390700F39B83 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471BEDA22B5390700F39B83 /* AuthView.swift */; };
+		4471BEDF22B53BE400F39B83 /* OrdersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471BEDE22B53BE400F39B83 /* OrdersListView.swift */; };
+		4471BEE122B540B200F39B83 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471BEE022B540B200F39B83 /* ImagePickerView.swift */; };
+		CF9A46A4F2A54DB274B003C9 /* Pods_MirageBC_Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782E950CDDA3BA2F1905C5E8 /* Pods_MirageBC_Client.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		371E8D1122B54F3F00D62FB1 /* Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moya.swift; sourceTree = "<group>"; };
+		440183EA22B5321800FD616B /* MirageBC_Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirageBC_Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		440183ED22B5321800FD616B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		440183EF22B5321800FD616B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		440183F122B5321800FD616B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		440183F322B5321D00FD616B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		440183F622B5321D00FD616B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		440183F922B5321D00FD616B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		440183FB22B5321D00FD616B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4471BED822B538AB00F39B83 /* RegistationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistationView.swift; sourceTree = "<group>"; };
+		4471BEDA22B5390700F39B83 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		4471BEDE22B53BE400F39B83 /* OrdersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListView.swift; sourceTree = "<group>"; };
+		4471BEE022B540B200F39B83 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		7231D52F2E7F6E2DBB8120F2 /* Pods-MirageBC_Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirageBC_Client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MirageBC_Client/Pods-MirageBC_Client.debug.xcconfig"; sourceTree = "<group>"; };
+		782E950CDDA3BA2F1905C5E8 /* Pods_MirageBC_Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MirageBC_Client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A6A7F4B57E80636B8D6211 /* Pods-MirageBC_Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MirageBC_Client.release.xcconfig"; path = "Pods/Target Support Files/Pods-MirageBC_Client/Pods-MirageBC_Client.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440183E722B5321800FD616B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9A46A4F2A54DB274B003C9 /* Pods_MirageBC_Client.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4A4502DA11C0F325AAB5CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782E950CDDA3BA2F1905C5E8 /* Pods_MirageBC_Client.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440183E122B5321800FD616B = {
+			isa = PBXGroup;
+			children = (
+				440183EC22B5321800FD616B /* MirageBC_Client */,
+				440183EB22B5321800FD616B /* Products */,
+				834EA30B117DD94E78641837 /* Pods */,
+				2C4A4502DA11C0F325AAB5CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		440183EB22B5321800FD616B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440183EA22B5321800FD616B /* MirageBC_Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440183EC22B5321800FD616B /* MirageBC_Client */ = {
+			isa = PBXGroup;
+			children = (
+				440183ED22B5321800FD616B /* AppDelegate.swift */,
+				440183EF22B5321800FD616B /* SceneDelegate.swift */,
+				371E8D1122B54F3F00D62FB1 /* Moya.swift */,
+				440183F122B5321800FD616B /* ContentView.swift */,
+				440183F322B5321D00FD616B /* Assets.xcassets */,
+				440183F822B5321D00FD616B /* LaunchScreen.storyboard */,
+				440183FB22B5321D00FD616B /* Info.plist */,
+				440183F522B5321D00FD616B /* Preview Content */,
+				4471BED822B538AB00F39B83 /* RegistationView.swift */,
+				4471BEDA22B5390700F39B83 /* AuthView.swift */,
+				4471BEDE22B53BE400F39B83 /* OrdersListView.swift */,
+				4471BEE022B540B200F39B83 /* ImagePickerView.swift */,
+			);
+			path = MirageBC_Client;
+			sourceTree = "<group>";
+		};
+		440183F522B5321D00FD616B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				440183F622B5321D00FD616B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		834EA30B117DD94E78641837 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7231D52F2E7F6E2DBB8120F2 /* Pods-MirageBC_Client.debug.xcconfig */,
+				97A6A7F4B57E80636B8D6211 /* Pods-MirageBC_Client.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440183E922B5321800FD616B /* MirageBC_Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440183FE22B5321D00FD616B /* Build configuration list for PBXNativeTarget "MirageBC_Client" */;
+			buildPhases = (
+				77E8F5640606EEA61231C66D /* [CP] Check Pods Manifest.lock */,
+				440183E622B5321800FD616B /* Sources */,
+				440183E722B5321800FD616B /* Frameworks */,
+				440183E822B5321800FD616B /* Resources */,
+				D2666F3B090045B6B452595B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirageBC_Client;
+			productName = MirageBC_Client;
+			productReference = 440183EA22B5321800FD616B /* MirageBC_Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440183E222B5321800FD616B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Eugene Antropov";
+				TargetAttributes = {
+					440183E922B5321800FD616B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 440183E522B5321800FD616B /* Build configuration list for PBXProject "MirageBC_Client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 440183E122B5321800FD616B;
+			productRefGroup = 440183EB22B5321800FD616B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440183E922B5321800FD616B /* MirageBC_Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440183E822B5321800FD616B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440183FA22B5321D00FD616B /* LaunchScreen.storyboard in Resources */,
+				440183F722B5321D00FD616B /* Preview Assets.xcassets in Resources */,
+				440183F422B5321D00FD616B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77E8F5640606EEA61231C66D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MirageBC_Client-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2666F3B090045B6B452595B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MirageBC_Client/Pods-MirageBC_Client-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MirageBC_Client/Pods-MirageBC_Client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440183E622B5321800FD616B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4471BED922B538AB00F39B83 /* RegistationView.swift in Sources */,
+				4471BEDF22B53BE400F39B83 /* OrdersListView.swift in Sources */,
+				4471BEDB22B5390700F39B83 /* AuthView.swift in Sources */,
+				440183EE22B5321800FD616B /* AppDelegate.swift in Sources */,
+				4471BEE122B540B200F39B83 /* ImagePickerView.swift in Sources */,
+				440183F022B5321800FD616B /* SceneDelegate.swift in Sources */,
+				440183F222B5321800FD616B /* ContentView.swift in Sources */,
+				371E8D1222B54F3F00D62FB1 /* Moya.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		440183F822B5321D00FD616B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440183F922B5321D00FD616B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		440183FC22B5321D00FD616B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		440183FD22B5321D00FD616B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		440183FF22B5321D00FD616B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7231D52F2E7F6E2DBB8120F2 /* Pods-MirageBC_Client.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "MirageBC_Client/Preview\\ Content";
+				DEVELOPMENT_TEAM = CL6H8JZ2JY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MirageBC_Client/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.eantropov.MirageBC-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4401840022B5321D00FD616B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A6A7F4B57E80636B8D6211 /* Pods-MirageBC_Client.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "MirageBC_Client/Preview\\ Content";
+				DEVELOPMENT_TEAM = CL6H8JZ2JY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MirageBC_Client/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.eantropov.MirageBC-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440183E522B5321800FD616B /* Build configuration list for PBXProject "MirageBC_Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440183FC22B5321D00FD616B /* Debug */,
+				440183FD22B5321D00FD616B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440183FE22B5321D00FD616B /* Build configuration list for PBXNativeTarget "MirageBC_Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440183FF22B5321D00FD616B /* Debug */,
+				4401840022B5321D00FD616B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 440183E222B5321800FD616B /* Project object */;
+}
